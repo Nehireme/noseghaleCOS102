@@ -1,16 +1,3 @@
-
-def solve_quadratic(a, b, c):
-    roots = np.roots([a, b, c])
-    return roots
-
-def solve_cubic(a, b, c, d):
-    roots = np.roots([a, b, c, d])
-    return roots
-
-def solve_quartic(a, b, c, d, e):
-    roots = np.roots([a, b, c, d, e])
-    return roots
-
 def main():
     print("Choose the type of equation to solve:")
     print("1. Quadratic (Ax² + Bx + C = 0)")

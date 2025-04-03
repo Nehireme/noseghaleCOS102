@@ -21,15 +21,9 @@ if choice == "2":
  d = int(d)
  for i in range(1, d + 1):
        if d % i == 0:
-           print(i) 
-           f = lambda i: (i**3*a) + (i**2*b) + (i*c) + d 
-           print(f(i))
-           (f(i)) == (x)(float)
-           if x == 0:
-             print(x)
-           
-           
-print("Roots of cubic expansion are ")
+           f = (i**3*a) + (i**2*b) + (i*c) + d 
+           if f == 0:
+            print("Roots of cubic expansion are ",i)  
 
 if choice == "3":
  a = float(input("Enter coefficient A: "))
